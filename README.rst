@@ -8,7 +8,7 @@ Google Coral Baseboard
 Overview
 ========
 
-This repository contains open hardware design files created by `Antmicro <www.antmicro.com>`_.
+This repository contains open hardware design files created by `Antmicro <http://www.antmicro.com>`_.
 The design files describe a custom carrier board supporting a TPU SoM module included in `Coral Edge TPU Development Board <https://coral.withgoogle.com/products/dev-board>`_.
 The board offers standard I/O interfaces and allows to connect MIPI CSI-2 compatible image sensors over a unified Flexible Flat Cable (FFC) connector.
 
