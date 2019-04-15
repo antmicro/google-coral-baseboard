@@ -8,7 +8,7 @@ Google Coral Baseboard
 Overview
 ========
 
-This repository contains open hardware design files for a baseboard supporting the `Google Coral SoM <https://coral.withgoogle.com/products/som>` with NXP i.MX8X and Google's Edge TPU ML inference ASIC (also available as part of the `Coral Edge TPU Development Board <https://coral.withgoogle.com/products/dev-board>`_), created by `Antmicro <http://www.antmicro.com>`_.
+This repository contains open hardware design files for a baseboard supporting the `Google Coral SoM <https://coral.withgoogle.com/products/som>`_ with NXP i.MX8X and Google's Edge TPU ML inference ASIC (also available as part of the `Coral Edge TPU Development Board <https://coral.withgoogle.com/products/dev-board>`_), created by `Antmicro <http://www.antmicro.com>`_.
 The board provides standard I/O interfaces and allows the user to interface with two MIPI CSI-2 compatible video devices over a unified Flexible Flat Cable (FFC) connector.
 
 Key features
