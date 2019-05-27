@@ -1,6 +1,6 @@
-======================
-Google Coral Baseboard
-======================
+=================================
+Antmicro's Google Coral Baseboard
+=================================
 
 .. image:: Images/google-coral-baseboard.jpg
    :scale: 40%
