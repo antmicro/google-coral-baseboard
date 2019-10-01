@@ -28,7 +28,7 @@ PowerPortNamesTakePriority=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
-OutputPath=
+OutputPath=Project Outputs for google-coral-baseboard-rev.1.1
 LogFolderPath=
 
 [Preferences]
@@ -36,13 +36,13 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=PCB\SoM.SchDoc
+DocumentPath=PCB\CSI.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=4
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -52,13 +52,13 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document2]
-DocumentPath=PCB\CSI.SchDoc
+DocumentPath=PCB\Ethernet.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=0
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -68,13 +68,13 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document3]
-DocumentPath=PCB\Ethernet.SchDoc
+DocumentPath=PCB\Interfaces.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=1
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -84,13 +84,13 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document4]
-DocumentPath=PCB\Interfaces.SchDoc
+DocumentPath=PCB\M2.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=2
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -100,13 +100,13 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document5]
-DocumentPath=PCB\M2.SchDoc
+DocumentPath=PCB\PCB.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=3
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -116,13 +116,13 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document6]
-DocumentPath=PCB\Supply.SchDoc
+DocumentPath=PCB\SoM.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=5
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -132,13 +132,13 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document7]
-DocumentPath=PCB\USB-Debug.SchDoc
+DocumentPath=PCB\Supply.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=6
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -148,7 +148,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document8]
-DocumentPath=PCB\PCB.PcbDoc
+DocumentPath=PCB\USB-Debug.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -195,11 +195,27 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
+[Document11]
+DocumentPath=documentation.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
 [ProjectVariant1]
 Description=Prototype
 AllowFabrication=1
 ParameterCount=0
-VariationCount=34
+VariationCount=24
 Variation1=Designator=R5|UniqueId=\URRKOMAM|Kind=1|AlternatePart= 
 Variation2=Designator=R15|UniqueId=\HPPIBQTL|Kind=1|AlternatePart= 
 Variation3=Designator=R11|UniqueId=\UEMLYWPH|Kind=1|AlternatePart= 
@@ -210,51 +226,41 @@ Variation7=Designator=R17|UniqueId=\YQCIPYJP|Kind=1|AlternatePart=
 Variation8=Designator=R18|UniqueId=\ICNQVDWA|Kind=1|AlternatePart= 
 Variation9=Designator=R24|UniqueId=\UENYUDWH|Kind=1|AlternatePart= 
 Variation10=Designator=R21|UniqueId=\RKUOFNNE|Kind=1|AlternatePart= 
-Variation11=Designator=R50|UniqueId=\SVDVRKPH|Kind=1|AlternatePart= 
-Variation12=Designator=R49|UniqueId=\JIOPOAEG|Kind=0|AlternatePart= 
-Variation13=Designator=R53|UniqueId=\BRRBCBGX|Kind=1|AlternatePart= 
-Variation14=Designator=R102|UniqueId=\IKFTKNAN|Kind=0|AlternatePart= 
-Variation15=Designator=R100|UniqueId=\EWUIAXGB|Kind=1|AlternatePart= 
-Variation16=Designator=F1|UniqueId=\UQVYEHOW|Kind=1|AlternatePart= 
-Variation17=Designator=R47|UniqueId=\KJSUFWBE|Kind=1|AlternatePart= 
-Variation18=Designator=R48|UniqueId=\EVJLNQXB|Kind=1|AlternatePart= 
-Variation19=Designator=R101|UniqueId=\ASGPVVCB|Kind=1|AlternatePart= 
-Variation20=Designator=R103|UniqueId=\NYCYPHWU|Kind=1|AlternatePart= 
-Variation21=Designator=R104|UniqueId=\BVVQPMLT|Kind=1|AlternatePart= 
-Variation22=Designator=R72|UniqueId=\BRWFVMTT|Kind=0|AlternatePart= 
-Variation23=Designator=R69|UniqueId=\PIJFQCVG|Kind=1|AlternatePart= 
-Variation24=Designator=C51|UniqueId=\PGYMWMTR|Kind=1|AlternatePart= 
-Variation25=Designator=C49|UniqueId=\SANAHAUG|Kind=1|AlternatePart= 
-Variation26=Designator=C47|UniqueId=\OBRIXAJO|Kind=1|AlternatePart= 
-Variation27=Designator=C45|UniqueId=\EJRPOBQI|Kind=1|AlternatePart= 
-Variation28=Designator=R81|UniqueId=\MTVHOSDI|Kind=1|AlternatePart= 
-Variation29=Designator=R85|UniqueId=\FACUTWCT|Kind=0|AlternatePart= 
-Variation30=Designator=C53|UniqueId=\WHDIYRTM|Kind=1|AlternatePart= 
-Variation31=Designator=C54|UniqueId=\EJHBQCMO|Kind=1|AlternatePart= 
-Variation32=Designator=C46|UniqueId=\GXBCBNIF|Kind=1|AlternatePart= 
-Variation33=Designator=C48|UniqueId=\BAGVPCFY|Kind=1|AlternatePart= 
-Variation34=Designator=R71|UniqueId=\HGYJKVUV|Kind=1|AlternatePart= 
+Variation11=Designator=R50|UniqueId=\UDQKJDET|Kind=0|AlternatePart= 
+Variation12=Designator=R49|UniqueId=\JIOPOAEG|Kind=1|AlternatePart= 
+Variation13=Designator=R53|UniqueId=\VAHKTQBC|Kind=0|AlternatePart= 
+Variation14=Designator=R100|UniqueId=\UCLWXXUC|Kind=1|AlternatePart= 
+Variation15=Designator=F1|UniqueId=\JWPGMUGF|Kind=0|AlternatePart= 
+Variation16=Designator=R47|UniqueId=\VGRTYYYN|Kind=0|AlternatePart= 
+Variation17=Designator=R48|UniqueId=\MWKEYOMA|Kind=0|AlternatePart= 
+Variation18=Designator=R101|UniqueId=\JPURIEKV|Kind=1|AlternatePart= 
+Variation19=Designator=R103|UniqueId=\KOAHTSIL|Kind=1|AlternatePart= 
+Variation20=Designator=R104|UniqueId=\LOFBTFYM|Kind=1|AlternatePart= 
+Variation21=Designator=R72|UniqueId=\BRWFVMTT|Kind=1|AlternatePart= 
+Variation22=Designator=R69|UniqueId=\PIJFQCVG|Kind=1|AlternatePart= 
+Variation23=Designator=R81|UniqueId=\MTVHOSDI|Kind=1|AlternatePart= 
+Variation24=Designator=R85|UniqueId=\FACUTWCT|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Parameter1]
-Name=AM_Approved
-Value=
+Name=AM_Title
+Value=Google Coral Baseboard
 
 [Parameter2]
-Name=AM_Author
-Value=A. Nowicka
-
-[Parameter3]
-Name=AM_Revision
-Value=1.0
-
-[Parameter4]
 Name=AM_Status
 Value=Prototype
 
+[Parameter3]
+Name=AM_Revision
+Value=1.2
+
+[Parameter4]
+Name=AM_Author
+Value=
+
 [Parameter5]
-Name=AM_Title
-Value=Google Coral Baseboard
+Name=AM_Approved
+Value=
 
 [Configuration1]
 Name=Default Configuration
@@ -267,12 +273,12 @@ GenerateBOM=1
 OutputJobsCount=0
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for google-coral-baseboard-rev.1.1
 
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=MFC-8520DN
+TargetPrinter=PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=PCADNetlist
 OutputName1=PCAD Netlist
@@ -293,13 +299,13 @@ OutputDefault3=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=MFC-8520DN
+TargetPrinter=PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 
 [OutputGroup3]
 Name=Documentation Outputs
 Description=
-TargetPrinter=MFC-8520DN
+TargetPrinter=PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Assembler Source Print
 OutputName1=Assembler Source Prints
@@ -401,7 +407,7 @@ PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=MFC-8520DN
+TargetPrinter=PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -423,7 +429,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=MFC-8520DN
+TargetPrinter=PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -485,7 +491,7 @@ OutputDefault10=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=MFC-8520DN
+TargetPrinter=PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -522,7 +528,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=MFC-8520DN
+TargetPrinter=PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -702,7 +708,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=MFC-8520DN
+TargetPrinter=PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Configuration compliance
 OutputName1=Environment configuration compliance check
@@ -736,7 +742,7 @@ OutputDefault5=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=MFC-8520DN
+TargetPrinter=PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
