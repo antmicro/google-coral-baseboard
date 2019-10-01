@@ -215,7 +215,7 @@ GenerateClassCluster=0
 Description=Prototype
 AllowFabrication=1
 ParameterCount=0
-VariationCount=24
+VariationCount=19
 Variation1=Designator=R5|UniqueId=\URRKOMAM|Kind=1|AlternatePart= 
 Variation2=Designator=R15|UniqueId=\HPPIBQTL|Kind=1|AlternatePart= 
 Variation3=Designator=R11|UniqueId=\UEMLYWPH|Kind=1|AlternatePart= 
@@ -226,41 +226,36 @@ Variation7=Designator=R17|UniqueId=\YQCIPYJP|Kind=1|AlternatePart=
 Variation8=Designator=R18|UniqueId=\ICNQVDWA|Kind=1|AlternatePart= 
 Variation9=Designator=R24|UniqueId=\UENYUDWH|Kind=1|AlternatePart= 
 Variation10=Designator=R21|UniqueId=\RKUOFNNE|Kind=1|AlternatePart= 
-Variation11=Designator=R50|UniqueId=\UDQKJDET|Kind=0|AlternatePart= 
-Variation12=Designator=R49|UniqueId=\JIOPOAEG|Kind=1|AlternatePart= 
-Variation13=Designator=R53|UniqueId=\VAHKTQBC|Kind=0|AlternatePart= 
-Variation14=Designator=R100|UniqueId=\UCLWXXUC|Kind=1|AlternatePart= 
-Variation15=Designator=F1|UniqueId=\JWPGMUGF|Kind=0|AlternatePart= 
-Variation16=Designator=R47|UniqueId=\VGRTYYYN|Kind=0|AlternatePart= 
-Variation17=Designator=R48|UniqueId=\MWKEYOMA|Kind=0|AlternatePart= 
-Variation18=Designator=R101|UniqueId=\JPURIEKV|Kind=1|AlternatePart= 
-Variation19=Designator=R103|UniqueId=\KOAHTSIL|Kind=1|AlternatePart= 
-Variation20=Designator=R104|UniqueId=\LOFBTFYM|Kind=1|AlternatePart= 
-Variation21=Designator=R72|UniqueId=\BRWFVMTT|Kind=1|AlternatePart= 
-Variation22=Designator=R69|UniqueId=\PIJFQCVG|Kind=1|AlternatePart= 
-Variation23=Designator=R81|UniqueId=\MTVHOSDI|Kind=1|AlternatePart= 
-Variation24=Designator=R85|UniqueId=\FACUTWCT|Kind=1|AlternatePart= 
+Variation11=Designator=R49|UniqueId=\JIOPOAEG|Kind=1|AlternatePart= 
+Variation12=Designator=R100|UniqueId=\UCLWXXUC|Kind=0|AlternatePart= 
+Variation13=Designator=R101|UniqueId=\JPURIEKV|Kind=0|AlternatePart= 
+Variation14=Designator=R103|UniqueId=\KOAHTSIL|Kind=0|AlternatePart= 
+Variation15=Designator=R104|UniqueId=\LOFBTFYM|Kind=0|AlternatePart= 
+Variation16=Designator=R72|UniqueId=\BRWFVMTT|Kind=1|AlternatePart= 
+Variation17=Designator=R69|UniqueId=\PIJFQCVG|Kind=1|AlternatePart= 
+Variation18=Designator=R81|UniqueId=\MTVHOSDI|Kind=1|AlternatePart= 
+Variation19=Designator=R85|UniqueId=\FACUTWCT|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Parameter1]
-Name=AM_Title
-Value=Google Coral Baseboard
+Name=AM_Approved
+Value=
 
 [Parameter2]
-Name=AM_Status
-Value=Prototype
+Name=AM_Author
+Value=
 
 [Parameter3]
 Name=AM_Revision
 Value=1.2
 
 [Parameter4]
-Name=AM_Author
-Value=
+Name=AM_Status
+Value=Prototype
 
 [Parameter5]
-Name=AM_Approved
-Value=
+Name=AM_Title
+Value=Google Coral Baseboard
 
 [Configuration1]
 Name=Default Configuration
