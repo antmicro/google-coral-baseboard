@@ -2,6 +2,8 @@
 Antmicro's Google Coral Baseboard
 =================================
 
+Copyright (c) 2019-2021 `Antmicro <https://www.antmicro.com>`_
+
 .. image:: Images/antmicro-google-coral-baseboard.jpg
    :scale: 40%
 
