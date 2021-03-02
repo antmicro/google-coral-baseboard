@@ -2,7 +2,7 @@
 Antmicro's Google Coral Baseboard
 =================================
 
-.. image:: Images/google-coral-baseboard.jpg
+.. image:: Images/antmicro-google-coral-baseboard.jpg
    :scale: 40%
 
 Overview
