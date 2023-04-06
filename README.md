@@ -26,6 +26,17 @@ The board provides standard I/O interfaces and allows the user to interface with
 
 The PCB project files were prepared in Altium Designer 14.1.
 
+## Project structure
+
+The main directory contains Altium project file, documentation script a
+LICENSE and README. The remaining files are stored in the following
+directories:
+
+*   `Libraries` - contains the component libraries
+*   `img` - contains graphics for this README
+*   `PCB` - contains schematics and layout files 
+*   `Documentation` - contains PDF schematic and generated assembly assets
+
 ## Getting started
 
 The board can be produced and assembled using the provided design files.
